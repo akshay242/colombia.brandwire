@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.til.brandwire.test.TestCase]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.til.brandwire.test.TestCase">
+        <methods>
+          <include name="enterStoryDetails" invocation-numbers="2"/>
+          <include name="verifyLogin"/>
+          <include name="driverInitialize"/>
+          <include name="accordionClick"/>
+        </methods>
+      </class> <!-- com.til.brandwire.test.TestCase -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.til.brandwire.test.TestCase] -->
